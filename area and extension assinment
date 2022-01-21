@@ -1,0 +1,16 @@
+# area-of-circle-and-extension-of-file
+code to find area of a circle and extension of file
+
+
+#area of a circle
+r=int(input("enter a radius value"))
+area=3.14*pow(r,2)
+print("area of a circle",area)
+
+
+#extension of afile
+filename=input("ente a file name")
+file=filename.split(".")
+print("extension o f a file",repr(file[-1]))
+
+
